@@ -1,0 +1,11 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, quantity INTEGER, aisle INTEGER);
+INSERT INTO store VALUES (1, "Long sleeve shirt", 9.99, 15, 1);
+INSERT INTO store VALUES (2, "Short Sleeve Shirt", 7.99, 14, 2);
+INSERT INTO store VALUES (3, "Jeans", 16.00, 20, 3);
+INSERT INTO store VALUES (4, "Shorts", 13.99, 10, 4);
+INSERT INTO store VALUES (5, "socks", 4.99, 5, 5);
+
+INSERT INTO store VALUES (6, "joggers", 20.00, 7, 6);
+
+SELECT * FROM store;
+SELECT * FROM store ORDER BY price;
